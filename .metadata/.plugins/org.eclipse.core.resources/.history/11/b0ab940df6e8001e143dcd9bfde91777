@@ -1,0 +1,18 @@
+package com.sathya.orm;
+
+import org.springframework.stereotype.Service;
+
+@Service
+public class BookService {
+
+    private final BookRepository bookRepository;
+
+    public BookService(BookRepository bookRepository) {
+        this.bookRepository = bookRepository;
+    }
+
+    public void insertBook() {
+        bookRepository.insertBook("978-1982123617", "The Great Gatsby", "F. Scott Fitzgerald", 12.99);
+    }
+}
+

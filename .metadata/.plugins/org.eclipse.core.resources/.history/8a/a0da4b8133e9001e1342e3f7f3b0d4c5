@@ -1,0 +1,5 @@
+package com.sathya.orm.BookClient;
+
+public class BookClient {
+
+}

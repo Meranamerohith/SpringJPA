@@ -1,0 +1,18 @@
+package com.sathya.orm;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.Modifying;
+import org.springframework.data.jpa.repository.Query;
+import org.springframework.transaction.annotation.Transactional;
+
+public interface BookRepository extends JpaRepository<Book, Long> {
+
+    @Modifying
+    @Transactional
+    @Query(value = "INSERT INTO book (id, isbn, name, author, price) VALUES (?1, ?2, ?3, ?4, ?5)", nativeQuery = true)
+    void insertBook(Long id, String isbn, String name, String author, double price);
+}
+
+	
+
+

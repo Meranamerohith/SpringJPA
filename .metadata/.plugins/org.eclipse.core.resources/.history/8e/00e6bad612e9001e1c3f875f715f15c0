@@ -1,0 +1,5 @@
+package com.sathya.orm.BookRepository;
+
+public class BookRepository {
+
+}

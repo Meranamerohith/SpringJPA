@@ -1,0 +1,10 @@
+package com.sathya.orm;
+
+
+@Data
+
+public class Person {
+	
+	
+
+}

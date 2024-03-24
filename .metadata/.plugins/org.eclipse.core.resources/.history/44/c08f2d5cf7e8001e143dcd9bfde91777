@@ -1,0 +1,5 @@
+package com.sathya.orm.entitymanager;
+
+public class EntityManager {
+
+}

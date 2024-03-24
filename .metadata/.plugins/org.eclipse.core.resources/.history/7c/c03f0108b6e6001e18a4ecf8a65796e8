@@ -1,0 +1,5 @@
+package com.sathya.orm.mapping;
+
+public class Mapper {
+
+}

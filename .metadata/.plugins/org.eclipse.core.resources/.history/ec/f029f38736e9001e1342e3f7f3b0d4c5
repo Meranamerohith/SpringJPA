@@ -1,0 +1,5 @@
+/*INSERT INTO book (isbn, name, author, price) VALUES (111, 'corejava', 'jamesgosling', 12.99);
+INSERT INTO book (isbn, name, author, price) VALUES (222, 'corejava', 'jamesgosling', 9.99);
+INSERT INTO book (isbn, name, author, price) VALUES (333, 'spring', 'rod jhonson', 10.99);
+INSERT INTO book (isbn, name, author, price) VALUES (444, 'springboot', 'rod jhonson', 8.99);
+INSERT INTO book (isbn, name, author, price) VALUES (555, 'advance java and spring', 'ratan', 11.99);*/

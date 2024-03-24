@@ -1,0 +1,5 @@
+package com.sathya.orm.ProductClient;
+
+public class ProductClient {
+
+}

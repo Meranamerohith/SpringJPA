@@ -1,0 +1,15 @@
+-- Check if the table exists before creating it
+DECLARE
+    table_exists NUMBER;
+BEGIN
+    SELECT COUNT(*)
+    INTO table_exists
+    FROM user_tables
+    WHERE table_name = 'BOOK';
+    
+    IF table_exists = 0 THEN
+        EXECUTE IMMEDIATE 'CREATE TABLE book ( ISBN NUMBER(20) PRIMARY KEY, name VARCHAR2(100), author VARCHAR2(100), price NUMBER(10,2) )';
+    END IF;
+END;
+/
+

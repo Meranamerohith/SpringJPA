@@ -1,0 +1,10 @@
+package com.sathya.orm.mapping;
+
+import com.sathya.orm.entity.*;
+import com.sathya.orm.model.*;
+
+public class ProductMapper {
+	
+	
+
+}

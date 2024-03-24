@@ -1,0 +1,12 @@
+package com.sathya.orm.model;
+
+
+
+
+public class ProductDetails {
+     
+	private int proId;
+	private String proName;
+	private String proPrice;
+	
+}

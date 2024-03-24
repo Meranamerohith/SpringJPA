@@ -1,0 +1,32 @@
+package com.sathya.orm;
+
+import java.time.LocalDateTime;
+
+import org.hibernate.id.factory.internal.AutoGenerationTypeStrategy;
+import org.springframework.data.annotation.CreatedBy;
+import org.springframework.data.annotation.CreatedDate;
+
+import jakarta.annotation.Generated;
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+@Entity
+public class Person {
+	
+ @GeneratedValue(Strategy = GenerationType.AUTO)	
+ private int id;
+ private String firstName;
+ private String lastName;
+ @CreatedDate
+ private LocalDateTime createAt;
+ @CreatedBy
+ private String createBy;
+
+}

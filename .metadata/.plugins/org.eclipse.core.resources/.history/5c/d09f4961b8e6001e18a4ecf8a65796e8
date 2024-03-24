@@ -1,0 +1,18 @@
+package com.sathya.orm.mapping;
+
+import com.sathya.orm.entity.*;
+import com.sathya.orm.entity1.Product;
+import com.sathya.orm.model.*;
+
+public class ProductMapper {
+	
+	//This method taking model class as input and return entity class as output
+       public Product modeltoEntityConversion(ProductDetails productDetails) {
+    	   
+    	   
+    	   //read the data from model class set to entity class
+    	   
+    	   Product product = new Product();
+    	   product.setP
+       }
+}

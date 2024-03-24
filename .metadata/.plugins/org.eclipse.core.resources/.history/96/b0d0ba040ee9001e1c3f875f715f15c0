@@ -1,0 +1,18 @@
+spring.application.name=SpringJPAGroovy3
+
+
+# H2 Database
+
+spring:
+     datasource:
+           url: jdbc:h2:mem:sairo
+                    driverClassName: org.h2.Driver
+                            username: sairohith
+spring.datasource.password=welcome@123
+spring.jpa.show-sql=true
+#spring.jpa.database-platform=org.hibernate.dialect.H2Dialect
+
+#port
+server.port= 8989
+
+springh2.console.enabled=true

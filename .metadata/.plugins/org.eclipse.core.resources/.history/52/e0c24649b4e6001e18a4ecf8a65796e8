@@ -1,0 +1,21 @@
+package com.sathya.orm;
+
+import java.sql.Date;
+import java.util.*;
+
+import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+
+@Entity
+public class Product {
+	
+   @Id
+   private int proId;
+   private String proName;
+   private double proPrice;
+   private Date createAt;
+   private String createBy;
+   private Date updateAt;
+   private String updateBy;
+}

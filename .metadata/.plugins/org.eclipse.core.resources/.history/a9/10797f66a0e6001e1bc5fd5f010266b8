@@ -1,0 +1,9 @@
+package com.sathya.orm;
+
+public class Product {
+   private int proId;
+   private String proName;
+   private double proPrice;
+   private String brand;
+   private String proMadeIn;
+}
